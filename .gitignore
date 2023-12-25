@@ -1,0 +1,7 @@
+# Excluded folders and testing files
+Development
+Graphics-Audio.zip
+
+# Documentation
+Essentials Docs Wiki.URL
+*.html

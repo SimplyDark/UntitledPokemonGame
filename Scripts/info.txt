@@ -1,0 +1,402 @@
+000-Settings.rb
+001-BattleSettings.rb
+002-==================.rb
+003-[[ Technical ]].rb
+004-MKXP_Compatibility.rb
+005-RubyUtilities.rb
+006-Intl_Messages.rb
+007-Input.rb
+008-PluginManager.rb
+009-RPG_Sprite.rb
+010-Untitled.rb
+011-[[ Debugging ]].rb
+012-PBDebug.rb
+013-DebugConsole.rb
+014-Errors.rb
+015-Validation.rb
+016-Deprecation.rb
+017-Untitled.rb
+018-[[ Files ]].rb
+019-FileTests.rb
+020-FileMixins.rb
+021-HTTP_Utilities.rb
+022-==================.rb
+023-[[ Save data ]].rb
+024-SaveData.rb
+025-SaveData_Value.rb
+026-SaveData_Conversion.rb
+027-Game_SaveValues.rb
+028-Game_SaveConversions.rb
+029-==================.rb
+030-[[ Game processing ]].rb
+031-StartGame.rb
+032-Scene_Map.rb
+033-Interpreter.rb
+034-Interpreter_Commands.rb
+035-Event_Handlers.rb
+036-Event_HandlerCollections.rb
+037-==================.rb
+038-[[ Game classes ]].rb
+039-Game_Screen.rb
+040-Game_System.rb
+041-Game_Picture.rb
+042-Game_Map.rb
+043-Game_MapFactory.rb
+044-Game_Character.rb
+045-Game_Event.rb
+046-Game_Player.rb
+047-Game_CommonEvent.rb
+048-Game_Follower.rb
+049-Game_FollowerFactory.rb
+050-Game_Stats.rb
+051-Untitled.rb
+052-[[ Switches and Variables ]].rb
+053-Game_Temp.rb
+054-Game_Switches.rb
+055-Game_Variables.rb
+056-Game_SelfSwitches.rb
+057-==================.rb
+058-[[ Sprites ]].rb
+059-Sprite_Picture.rb
+060-Sprite_Timer.rb
+061-Sprite_Character.rb
+062-Sprite_Reflection.rb
+063-Sprite_SurfBase.rb
+064-Spriteset_Global.rb
+065-Spriteset_Map.rb
+066-Sprite_AnimationSprite.rb
+067-Sprite_DynamicShadows.rb
+068-PictureEx.rb
+069-ScreenPosHelper.rb
+070-==================.rb
+071-[[ Map renderer ]].rb
+072-TilemapRenderer.rb
+073-TilesetWrapper.rb
+074-AutotileExpander.rb
+075-TileDrawingHelper.rb
+076-==================.rb
+077-[[ Objects and windows ]].rb
+078-RPG_Cache.rb
+079-MessageConfig.rb
+080-Window.rb
+081-SpriteWindow.rb
+082-SpriteWindow_text.rb
+083-SpriteWindow_pictures.rb
+084-BitmapSprite.rb
+085-AnimatedBitmap.rb
+086-Planes.rb
+087-DrawText.rb
+088-Messages.rb
+089-TextEntry.rb
+090-==================.rb
+091-[[ Audio ]].rb
+092-Audio.rb
+093-Audio_Play.rb
+094-==================.rb
+095-[[ Scenes ]].rb
+096-Transitions.rb
+097-EventScene.rb
+098-==================.rb
+099-[[ Data ]].rb
+100-GameData.rb
+101-Untitled.rb
+102-[[ Hardcoded data ]].rb
+103-GrowthRate.rb
+104-GenderRatio.rb
+105-EggGroup.rb
+106-BodyShape.rb
+107-BodyColor.rb
+108-Habitat.rb
+109-Evolution.rb
+110-Stat.rb
+111-Nature.rb
+112-Status.rb
+113-TerrainTag.rb
+114-Weather.rb
+115-EncounterType.rb
+116-Environment.rb
+117-BattleWeather.rb
+118-BattleTerrain.rb
+119-Target.rb
+120-Untitled.rb
+121-[[ PBS data ]].rb
+122-MiscPBSData.rb
+123-TownMap.rb
+124-Type.rb
+125-Ability.rb
+126-Move.rb
+127-Item.rb
+128-BerryPlant.rb
+129-Species.rb
+130-Species_files.rb
+131-SpeciesMetrics.rb
+132-ShadowPokemon.rb
+133-Ribbon.rb
+134-Encounter.rb
+135-TrainerType.rb
+136-Trainer.rb
+137-Metadata.rb
+138-PlayerMetadata.rb
+139-MapMetadata.rb
+140-DungeonTileset.rb
+141-DungeonParameters.rb
+142-PhoneMessage.rb
+143-==================.rb
+144-[[ Battle ]].rb
+145-Untitled.rb
+146-[[ Battle ]].rb
+147-Battle.rb
+148-Battle_StartAndEnd.rb
+149-Battle_ExpAndMoveLearning.rb
+150-Battle_ActionAttacksPriority.rb
+151-Battle_ActionSwitching.rb
+152-Battle_ActionUseItem.rb
+153-Battle_ActionRunning.rb
+154-Battle_ActionOther.rb
+155-Battle_CommandPhase.rb
+156-Battle_AttackPhase.rb
+157-Battle_EndOfRoundPhase.rb
+158-Untitled.rb
+159-[[ Battler ]].rb
+160-Battle_Battler.rb
+161-Battler_Initialize.rb
+162-Battler_ChangeSelf.rb
+163-Battler_Statuses.rb
+164-Battler_StatStages.rb
+165-Battler_AbilityAndItem.rb
+166-Battler_UseMove.rb
+167-Battler_UseMoveTargeting.rb
+168-Battler_UseMoveSuccessChecks.rb
+169-Battler_UseMoveTriggerEffects.rb
+170-Untitled.rb
+171-[[ Move ]].rb
+172-Battle_Move.rb
+173-Move_Usage.rb
+174-Move_UsageCalculations.rb
+175-Move_BaseEffects.rb
+176-MoveEffects_Misc.rb
+177-MoveEffects_BattlerStats.rb
+178-MoveEffects_BattlerOther.rb
+179-MoveEffects_MoveAttributes.rb
+180-MoveEffects_MultiHit.rb
+181-MoveEffects_Healing.rb
+182-MoveEffects_Items.rb
+183-MoveEffects_ChangeMoveEffect.rb
+184-MoveEffects_SwitchingActing.rb
+185-Untitled.rb
+186-[[ Scene ]].rb
+187-Battle_Scene.rb
+188-Scene_Initialize.rb
+189-Scene_ChooseCommands.rb
+190-Scene_PlayAnimations.rb
+191-Battle_Scene_Menus.rb
+192-Battle_Scene_Objects.rb
+193-Battle_Scene_BaseAnimation.rb
+194-Battle_Scene_Animations.rb
+195-Battle_DebugScene.rb
+196-Untitled.rb
+197-[[ AI ]].rb
+198-Battle_AI.rb
+199-AI_Switch.rb
+200-AI_UseItem.rb
+201-AI_MegaEvolve.rb
+202-AI_ChooseMove.rb
+203-AI_ChooseMove_GenericEffects.rb
+204-AI_ChooseMove_OtherScores.rb
+205-AI_Utilities.rb
+206-AITrainer.rb
+207-AIBattler.rb
+208-AIMove.rb
+209-Untitled.rb
+210-[[ AI MoveEffects ]].rb
+211-AI_MoveEffects_Misc.rb
+212-AI_MoveEffects_BattlerStats.rb
+213-AI_MoveEffects_BattlerOther.rb
+214-AI_MoveEffects_MoveAttributes.rb
+215-AI_MoveEffects_MultiHit.rb
+216-AI_MoveEffects_Healing.rb
+217-AI_MoveEffects_Items.rb
+218-AI_MoveEffects_ChangeMoveEffect.rb
+219-AI_MoveEffects_SwitchingActing.rb
+220-Untitled.rb
+221-[[ Other battle code ]].rb
+222-PBEffects.rb
+223-Battle_ActiveField.rb
+224-Battle_DamageState.rb
+225-Battle_Peers.rb
+226-Battle_CatchAndStoreMixin.rb
+227-Battle_Clauses.rb
+228-BattleAnimationPlayer.rb
+229-Battle_AbilityEffects.rb
+230-Battle_ItemEffects.rb
+231-Battle_PokeBallEffects.rb
+232-Untitled.rb
+233-[[ Other battle types ]].rb
+234-SafariBattle.rb
+235-BugContestBattle.rb
+236-BattlePalaceBattle.rb
+237-BattleArenaBattle.rb
+238-RecordedBattle.rb
+239-==================.rb
+240-[[ Overworld ]].rb
+241-Overworld.rb
+242-Overworld_Metadata.rb
+243-Overworld_Time.rb
+244-Overworld_FieldMoves.rb
+245-Overworld_Fishing.rb
+246-Overworld_BerryPlants.rb
+247-Overworld_DayCare.rb
+248-Overworld_RandomDungeons.rb
+249-Untitled.rb
+250-[[ Overworld visuals ]].rb
+251-Overworld_Weather.rb
+252-Overworld_Overlays.rb
+253-Overworld_MapTransitionAnims.rb
+254-Untitled.rb
+255-[[ Battle triggering ]].rb
+256-Overworld_BattleStarting.rb
+257-Overworld_BattleIntroAnim.rb
+258-Overworld_WildEncounters.rb
+259-Overworld_EncounterModifiers.rb
+260-Overworld_RoamingPokemon.rb
+261-==================.rb
+262-[[ Items ]].rb
+263-Item_Utilities.rb
+264-Item_Effects.rb
+265-Item_BattleEffects.rb
+266-Item_Phone.rb
+267-Item_PokeRadar.rb
+268-Item_Mail.rb
+269-Item_Sprites.rb
+270-PokemonBag.rb
+271-==================.rb
+272-[[ Pokemon ]].rb
+273-Pokemon.rb
+274-Pokemon_MegaEvolution.rb
+275-Pokemon_ShadowPokemon.rb
+276-Pokemon_Move.rb
+277-Pokemon_Owner.rb
+278-Untitled.rb
+279-[[ Pokemon-related ]].rb
+280-FormHandlers.rb
+281-ShadowPokemon_Other.rb
+282-Pokemon_Sprites.rb
+283-PokemonStorage.rb
+284-==================.rb
+285-[[ Trainers and player ]].rb
+286-Trainer.rb
+287-Trainer_LoadAndNew.rb
+288-Trainer_Sprites.rb
+289-Player.rb
+290-Player_Pokedex.rb
+291-==================.rb
+292-[[ UI ]].rb
+293-UI_PauseMenu.rb
+294-UI_Pokedex_Menu.rb
+295-UI_Pokedex_Main.rb
+296-UI_Pokedex_Entry.rb
+297-UI_Party.rb
+298-UI_Summary.rb
+299-UI_Bag.rb
+300-UI_Pokegear.rb
+301-UI_RegionMap.rb
+302-UI_Phone.rb
+303-UI_Jukebox.rb
+304-UI_TrainerCard.rb
+305-UI_Load.rb
+306-UI_Save.rb
+307-UI_Options.rb
+308-UI_ReadyMenu.rb
+309-UI_PokemonStorage.rb
+310-UI_ItemStorage.rb
+311-UI_PC.rb
+312-UI_PokeMart.rb
+313-UI_BattlePointShop.rb
+314-UI_MoveRelearner.rb
+315-UI_PurifyChamber.rb
+316-UI_MysteryGift.rb
+317-UI_TextEntry.rb
+318-Untitled.rb
+319-[[ Non-interactive UI ]].rb
+320-UI_SplashesAndTitleScreen.rb
+321-UI_Controls.rb
+322-UI_EggHatching.rb
+323-UI_Evolution.rb
+324-UI_Trading.rb
+325-UI_HallOfFame.rb
+326-UI_Credits.rb
+327-==================.rb
+328-[[ Minigames ]].rb
+329-Minigame_Duel.rb
+330-Minigame_TripleTriad.rb
+331-Minigame_SlotMachine.rb
+332-Minigame_VoltorbFlip.rb
+333-Minigame_Lottery.rb
+334-Minigame_Mining.rb
+335-Minigame_TilePuzzles.rb
+336-==================.rb
+337-[[ Alternate battle modes ]].rb
+338-SafariZone.rb
+339-BugContest.rb
+340-Untitled.rb
+341-[[ Battle Frontier ]].rb
+342-Challenge_BattleChallenge.rb
+343-Challenge_Data.rb
+344-Challenge_ChooseFoes.rb
+345-Challenge_Battles.rb
+346-UI_BattleSwap.rb
+347-Untitled.rb
+348-[[ Battle Frontier rules ]].rb
+349-Challenge_ChallengeRules.rb
+350-Challenge_Rulesets.rb
+351-Challenge_EntryRestrictions.rb
+352-Challenge_LevelAdjustment.rb
+353-Challenge_BattleRules.rb
+354-Untitled.rb
+355-[[ Battle Frontier generator ]].rb
+356-ChallengeGenerator_Data.rb
+357-ChallengeGenerator_Pokemon.rb
+358-ChallengeGenerator_Trainers.rb
+359-ChallengeGenerator_BattleSim.rb
+360-==================.rb
+361-[[ Utilities ]].rb
+362-Utilities.rb
+363-Utilities_Pokemon.rb
+364-Utilities_BattleAudio.rb
+365-==================.rb
+366-[[ Debug ]].rb
+367-Editor_Utilities.rb
+368-Editor_DataTypes.rb
+369-Editor_Listers.rb
+370-Untitled.rb
+371-[[ Editor screens ]].rb
+372-EditorScreens.rb
+373-EditorScreens_TerrainTags.rb
+374-EditorScreens_MapConnections.rb
+375-EditorScreens_SpritePositioning.rb
+376-Untitled.rb
+377-[[ Animation editor ]].rb
+378-AnimEditor_SceneElements.rb
+379-AnimEditor_ControlsButtons.rb
+380-AnimEditor_Interpolation.rb
+381-AnimEditor_ExportImport.rb
+382-AnimEditor_Functions.rb
+383-Untitled.rb
+384-[[ Debug menus ]].rb
+385-Debug_Menus.rb
+386-Debug_MenuCommands.rb
+387-Debug_MenuExtraCode.rb
+388-Debug_BattleCommands.rb
+389-Debug_BattlePkmnCommands.rb
+390-Debug_BattleExtraCode.rb
+391-Debug_PokemonCommands.rb
+392-Debug_FilenameUpdater.rb
+393-==================.rb
+394-[[ Compiler ]].rb
+395-Compiler.rb
+396-Compiler_CompilePBS.rb
+397-Compiler_WritePBS.rb
+398-Compiler_MapsAndEvents.rb
+399-==================.rb
+400-[[ Main ]].rb
+401-Main.rb
