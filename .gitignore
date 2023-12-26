@@ -4,3 +4,9 @@ Development
 # Documentation
 Essentials Docs Wiki.URL
 *.html
+
+# Development files/tools
+animmaker.exe
+animmaker.txt
+extendtext.exe
+extendtext.txt
